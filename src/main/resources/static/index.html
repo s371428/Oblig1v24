@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bestilling av kinobiletter</title>
+    <script src="Oblig1v24.js"></script>
+</head>
+
+<body>
+
+<h1>Bestilling av kinobiletter</h1>
+<label for="velg">Velg film:</label>
+<select name="film" id="velg">
+    <option value="">Velg film her</option>
+    <option value="Titanic">Titanic</option>
+    <option value="Avatar">Avatar</option>
+    <option value="Cars 1">Cars 1</option>
+    <option value="The Color Purple">The Color Purple</option>
+</select>
+<label id="validering film" style="color: red"></label>
+
+<br><br>
+<label for="antall">Antall</label>
+<input type="number" id="antall" style="width:2%" min="1" max="99"/> <!-- sjekk hva min="1" gjør -->
+<label id="validering antall" style="color: red"></label>
+<br><br>
+
+<table>
+    <tr>
+        <td>Fornavn</td> <td><input type="text" id="fornavn"/></td> <td id="validering fornavn" style="color: red"></td>
+    </tr>
+    <tr>
+        <td>Etternavn</td> <td><input type="text" id="etternavn"/></td> <td id="validering etternavn" style="color: red"></td>
+    </tr>
+    <tr>
+        <td>Telefonnr</td> <td><input type="text" id="telefonnr"/></td> <td id="validering telefonnr" style="color: red"></td>
+    </tr>
+    <tr>
+        <td>Epost</td> <td><input type="text" id="epost"/></td> <td id="validering epost" style="color: red"></td>
+    </tr>
+</table>
+
+<button onclick="visBillettRegister()">Kjøp billett</button>
+
+<h2>Alle billetter</h2>
+
+<div id="billettRegister"></div>
+
+<button onclick="slettAlleBilletter()">Slett alle billettene</button>
+
+</body>
+</html>
