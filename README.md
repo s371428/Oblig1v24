@@ -10,4 +10,4 @@ Fullt navn: Mewan Andre Mohammad
 
 Kort beskrivelse av applikasjon (5-10 setninger):
 
-NB! Husk å skrive inn beskrivelse a oppgaven. Det skal være kort
+NB! Husk å skrive inn beskrivelse av oppgaven. Det skal være kort
