@@ -94,7 +94,7 @@ function visBillettRegister(){
     const epost = document.getElementById("epost").value;
 
 
-    if(!valideringSjekkFilm(film) || !valideringSjekkAntall(antall) || !valideringSjekkFornavn(fornavn) || !valideringSjekkEtternavn(etternavn) || !valideringSjekkTelefonnr(telefonnr) || !valideringSjekkEpost(epost)){
+    if(!valideringSjekkFilm(film) | !valideringSjekkAntall(antall) | !valideringSjekkFornavn(fornavn) | !valideringSjekkEtternavn(etternavn) | !valideringSjekkTelefonnr(telefonnr) | !valideringSjekkEpost(epost)){
         return;
     }
     //sjekk med andre for å finne ut av feilmeldingene til å jobbe sammen //feilmeldingene oppstår også når man sletter billettene
