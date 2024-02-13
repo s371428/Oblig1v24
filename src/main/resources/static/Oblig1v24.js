@@ -108,6 +108,7 @@ function visBillettRegister(){
     if(!valideringSjekkFilm(film) | !valideringSjekkAntall(antall) | !valideringSjekkFornavn(fornavn) | !valideringSjekkEtternavn(etternavn) | !valideringSjekkTelefonnr(telefonnr) | !valideringSjekkEpost(epost)){
         return;
     }
+    //Brukte Bitwise OR operator, var eneste vei for å få koden til å vise alle feimeldinger på samme tid, ved benyttelse av vanlig OR operator (||), hadde en og en feilmedling vistes
 
     const nyBillett = {
         film : film,
